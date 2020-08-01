@@ -1,0 +1,45 @@
+Hello everyone. Welcome you all to our project.
+We are Squadron.
+Myself Himanshu.
+Abhinav and Poorvaja are our teammates.
+
+Our problem statement is Sentiment Analysis on Covid-19.
+During this pandemic the Corona Virus endangers our physical
+health, but alongside, social distancing also poses a threat to our
+emotional stability. 
+Thus, it is crucial to understand public sentiments for COVID-19. 
+The proposed solution would provide the analysis of tweets and
+visualization of the sentiments to tackle the situation.
+
+So what is Sentimental Analysis.
+Sentiment analysis is also known as opinion mining or emotion AI.
+It is a Interpretation and classification of emotions such as positive, negative, and neutral ,Within text data using natural language processing.
+Sentiment analysis tools allow businesses to identify customers sentiment toward products, brans, or services in online feedback.
+Why we do Sentiment analysis.
+It Allows us to gain an overview of the wider public opinion behind certain topics.
+Sentiment Analysis Can Boost Business. 
+Sentiment analysis captures insights for the entertainment industry.
+Sentiment analysis acts as a fundamental tool to understand how individuals feel about the topic.
+
+Here we proposed a solution:
+This analysis is divided into following :
+1. Collecting tweets from twitter.
+2. Filter out the data to remove unwanted words from each post.
+3. Sentiment classification and analysis.
+4. Creating a word cloud.
+5. Displaying data on dashboard. 
+
+For This project we used follwing modules.
+Tweepy and , Textblob
+While filtering out data, we observe that textblob module analyses only engilsh sentences, and if the given string is in another language then it throws it to neutral category,
+and there are more than 40% tweets posten in another languages like Hindi,spanish and etc.
+To entackle this problem we use another python module called Google trans.
+
+Now lets take a look at our dashboard.
+This is a website for sentiment analysis.
+we can search any keyword in this search box.
+lets search word COVID-19.
+we can see now this list, it is a list of most rescent posted tweets in twitter.
+Thease are various filters to filter tweets.
+Here is the pie chart showing current analysis, word cloud which shows most used words in these tweets.
+Thank you for your attension , have a nice day.
